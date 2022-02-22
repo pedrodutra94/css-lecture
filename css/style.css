@@ -47,15 +47,28 @@ body {
   height: 35px;
 }
 
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .heading-primary {
     color: white;
     text-transform: uppercase;
 }
 
 .heading-primary-main {
-    
+    display: block;
+    font-size: 3.75rem;
+    font-weight: 400;
+    letter-spacing: 2.1875rem;
 }
 
 .heading-primary-sub {
-
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1.0875rem
 }
