@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "github"]
+	url = https://github.com/pedrodutra94/css-lecture.git
+	fetch = +refs/heads/*:refs/remotes/github/*
